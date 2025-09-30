@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   call-hello:
-  uses: ./.github/workflows/hello.yaml
-  with:
-    who: "main Workflow"
+    uses: ./.github/workflows/hello.yaml
+    with:
+      who: "main Workflow"
